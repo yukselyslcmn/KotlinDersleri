@@ -7,7 +7,7 @@ fun main() {
     val fahrenheit = o2.soru1(derece)
     println("$derece °C = $fahrenheit °C fahrenheit")
 
-    val sonuc = o2.soru2(20.0,10.0)
+    val sonuc = o2.soru2(20.0, 10.0)
     println("Dikdortgenin çevresi : $sonuc cm")
 
     println("5! = ${o2.faktoriyel(5)}")
@@ -23,20 +23,5 @@ fun main() {
 
     println("40 GB internet fiyatı = ${o2.ucretHesapla(40)}")
     println("60 GB internet fiyatı = ${o2.ucretHesapla(60)}")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
